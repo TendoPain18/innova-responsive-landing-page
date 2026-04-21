@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="css/swiper.min.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&amp;display=swap" rel="stylesheet" />
+
+    <title>@TempData["title"]</title>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="start">
+                <div class="logo">
+                    <img src="imgs/logo.png" alt="Logo">
+                </div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+
+
+
+            <div class="last">
+
+                <div class="log">
+                    <a asp-page="/user_pages/JoinPage">Join Now</a>
+                    <a asp-page="/user_pages/Signup">Demo</a>
+                </div>
+
+
+                <div class="menu-button menu-click">
+                    <i class="fa-solid fa-bars menu-clickk"></i>
+                    <div class="wrapper">
+                        <div class="content">
+                            <ul class="menu">
+                                <li class="item">
+                                    <i class="fa-solid fa-house"></i>
+                                    <span>Home</span>
+                                </li>
+                                <li class="item">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                    <span>About</span>
+                                </li>
+                                <li class="item">
+                                    <i class="fa-solid fa-bell-concierge"></i>
+                                    <span>Services</span>
+                                </li>
+                                <li class="item">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>Contact</span>
+                                </li>
+                                <li class="item share">
+                                    <div>
+                                        <i class="fa-solid fa-globe"></i>
+                                        <span>En</span>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                    <ul class="share-menu">
+                                        <li class="item">
+                                            <span>Ar</span>
+                                            <img src="imgs/Flag_of_Egypt.svg.png" alt="Placeholder Image">
+                                            <span>Arabic</span>
+                                        </li>
+                                        <li class="item">
+                                            <span>En</span>
+                                            <img src="imgs/Flag_of_Us.svg.webp" alt="Placeholder Image">
+                                            <span>English</span>
+                                        </li>
+                                        <li class="item">
+                                            <span>Fr</span>
+                                            <img src="imgs/Flag_of_France.svg.webp" alt="Placeholder Image">
+                                            <span>France</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <span></span>
+
+                <div class="language-button">
+                    <i class="fa-solid fa-globe"></i>
+                    <button>Eng</button>
+
+
+                    <ul class="language-menu">
+                        <li>
+                            <a href="#">
+                                <span>AR</span>
+                                <img src="imgs/Flag_of_Egypt.svg.png" alt="Placeholder Image">
+                                <span>Arabic</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>EN</span>
+                                <img src="imgs/Flag_of_Us.svg.webp" alt="Placeholder Image">
+                                <span>English</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>FR</span>
+                                <img src="imgs/Flag_of_France.svg.webp" alt="Placeholder Image">
+                                <span>French</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing -->
+    <div class="landing-section" id="landing-section">
+        <div class="container">
+
+            <div class="landing-content">
+                <p>Unlocking the</p>
+                <p class="yellow">Money masters</p>
+                <p>for tomorrow!</p>
+                <a href="#">Join Now</a>
+            </div>
+
+            <div class="landing-image">
+                <div class="image">
+                    <img src="imgs/girl.png" alt="Landing Image">
+                </div>
+            </div>
+            
+        </div>
+
+        <a href="#navbar"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+    <!-- Problem -->
+    <div class="problem">
+        <div class="container">
+            <div class="text">
+                <p class="title">A groundbreaking platform</p>
+                <p class="paragraph">
+                    That equips future generations with essential money management skills.
+                </p>
+                <span></span>
+                <p class="paragraph">
+                    This will ensure that they have the necessary tools to navigate life's challenges.
+                </p>
+                <span></span>
+                <p class="paragraph">
+                    We are not only addressing present needs but also laying the foundation for children to become more financially responsible and confidently tackle any financial challenges that come their way.
+                </p>
+            </div>
+    
+            <div class="image">
+                <img src="imgs/money bag.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Innova -->
+    <div class="why-innova">
+        <img src="imgs/why innova2.png" alt="">
+        <img src="imgs/t11.png" alt="">
+        <img src="imgs/t22.png" alt="">
+        <img src="imgs/p11.png" alt="">
+        <img src="imgs/p22.png" alt="">
+        <img src="imgs/p33.png" alt="">
+    </div>
+
+    <!-- Feedback -->
+    <div class="hor-slider">
+
+        <div class="main-heading">
+            <h2>Feedbacks</h2>
+        </div>
+    
+        <div class="container">
+            <div class="bk-slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <i class="fa-solid fa-quote-right quote-icon"></i>
+                                <div class="testimonial-text">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus voluptatem quis et unde autem voluptatibus assumenda quas ipsa voluptas, maxime, laboriosam ut facere provident numquam.</p>
+                                </div>
+                                <div class="testimonial-footer">
+                                    <div class="name">Amr m4 zeyad</div>
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <i class="fa-solid fa-quote-right quote-icon"></i>
+                                <div class="testimonial-text">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus voluptatem quis et unde autem voluptatibus assumenda quas ipsa voluptas, maxime, laboriosam ut facere provident numquam.</p>
+                                </div>
+                                <div class="testimonial-footer">
+                                    <div class="name">Amr m4 zeyad</div>
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <i class="fa-solid fa-quote-right quote-icon"></i>
+                                <div class="testimonial-text">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus voluptatem quis et unde autem voluptatibus assumenda quas ipsa voluptas, maxime, laboriosam ut facere provident numquam.</p>
+                                </div>
+                                <div class="testimonial-footer">
+                                    <div class="name">Amr m4 zeyad</div>
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <i class="fa-solid fa-quote-right quote-icon"></i>
+                                <div class="testimonial-text">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus voluptatem quis et unde autem voluptatibus assumenda quas ipsa voluptas, maxime, laboriosam ut facere provident numquam.</p>
+                                </div>
+                                <div class="testimonial-footer">
+                                    <div class="name">Amr m4 zeyad</div>
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <i class="fa-solid fa-quote-right quote-icon"></i>
+                                <div class="testimonial-text">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus voluptatem quis et unde autem voluptatibus assumenda quas ipsa voluptas, maxime, laboriosam ut facere provident numquam.</p>
+                                </div>
+                                <div class="testimonial-footer">
+                                    <div class="name">Amr m4 zeyad</div>
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <i class="fa-solid fa-quote-right quote-icon"></i>
+                                <div class="testimonial-text">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus voluptatem quis et unde autem voluptatibus assumenda quas ipsa voluptas, maxime, laboriosam ut facere provident numquam.</p>
+                                </div>
+                                <div class="testimonial-footer">
+                                    <div class="name">Zeyad imposter</div>
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="school-logos">
+            <div class="logo">
+                <img src="imgs/s1.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="imgs/s2.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="imgs/s3.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="imgs/s4.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="imgs/s5.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Summer program -->
+    <div class="summer">
+        <div class="container">
+            <div class="image-container">
+                <img src="imgs/program.png" alt="">
+            </div>
+            <div class="content">
+                <h1>Summer Program</h1>
+                <ul>
+                    <li>innovainnovainnova</li>
+                    <li>innovainnovainnova</li>
+                    <li>innovainnovainnova</li>
+                    <li>innovainnovainnova</li>
+                </ul>
+                <a>Know More..</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Collaborate with us</h2>
+            </div>
+
+            <div class="content">
+
+                <form method="post" >
+                    <span asp-validation-for="ContactForm.Name"></span>
+                    <input class="main-input" asp-for="ContactForm.Name" placeholder="Your Name" required oninvalid="this.setCustomValidity('Please Enter Your Name!')" oninput="this.setCustomValidity('')" />
+                    
+                    <span asp-validation-for="ContactForm.Email"></span>
+                    <input class="main-input" asp-for="ContactForm.Email" type="email" pattern="[a-z0-9._%+\-]+@@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="Your Email: abc@abc.xyz" required oninvalid="this.setCustomValidity('Please Enter Your Email Correctly!')" oninput="this.setCustomValidity('')" />
+                    
+                    <span asp-validation-for="ContactForm.PhoneNumber"></span>
+                    <input class="main-input" asp-for="ContactForm.PhoneNumber" type="tel" pattern="01[0-9]{9}" placeholder="Your Phone: 01 XXXXXXXXX" required oninvalid="this.setCustomValidity('Please Enter Your Phone Correctly!')" oninput="this.setCustomValidity('')" />
+                    
+                    <span asp-validation-for="ContactForm.Message"></span>
+                    <textarea class="main-input" asp-for="ContactForm.Message" placeholder="Your Message" required oninvalid="this.setCustomValidity('Please Enter Your Message!')" oninput="this.setCustomValidity('')"></textarea>
+                    
+                    <input asp-page-handler="ContactForm" type="submit" value="Send Message" />
+                </form>
+
+                <div class="info">
+                    <h4>Get In Touch</h4>
+                    <span class="phone">+20 1012147671</span>
+                    <h4>Our Email</h4>
+                    <address>Innovacollabs@gmail.com<br /><br /></address>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="imgs/logo.png" alt="Logo">
+            </div>
+            <p>Unlocking the money masters for tomorrow!</p>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=61559556895226&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/innovaplatform?igsh=MXQwN3llNGcxMHRraQ=="><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/innovaplatform/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <hr>
+            <p>&copy; 2024 INNOVA. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="css/swiper.min.js"></script>
+    <script src="css/j.js"></script>
+
+</body>
+</html>
